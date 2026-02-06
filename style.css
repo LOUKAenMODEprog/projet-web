@@ -8,7 +8,7 @@ h1 {
     text-align: center;
 }
 
-.button {
+button {
     font-size: 90px;
     cursor: pointer;
     transition-duration: 0.5s;
@@ -16,11 +16,42 @@ h1 {
     border-radius: 30px 30px 30px 30px;
 }
 
-.button:hover {
+.button_couleur {
+    font-size: 50px;
+    position: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.button_other {
+    font-size: 30px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border:rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+button:hover {
+    background-color: rgb(14, 129, 120);
+}
+
+.button_other:hover {
     background-color: rgb(14, 129, 120);
 }
 
 img {
+    z-index: -1;
+    margin: auto;
+    position: flex;
+    justify-content: center;
+    width: auto;
     display: none;
+}
 
+.test {
+    font-size: 30px;
+    display: none;
 }
